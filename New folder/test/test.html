@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="test.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<div id="page1" class="page active">
+  <p>Do you agree?</p>
+  <button onclick="goYes()">Yes</button>
+  <button onclick="goNo()">No</button>
+</div>
+
+<div id="yesPage" class="page">
+  <h2>You chose YES</h2>
+  <button onclick="goBack()">Return</button>
+</div>
+
+<div id="noPage" class="page">
+  <h2>You chose NO</h2>
+  <button onclick="goBack()">Return</button>
+</div>
+
+
+
+<script src="test.js"></script>
+</body>
+</html>
